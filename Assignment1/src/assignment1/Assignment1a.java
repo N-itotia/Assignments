@@ -95,6 +95,7 @@ private String action = "blank";
                 b23.addActionListener(this);
                 
 		tf = new TextField(40);
+		tf.setFont(new Font("Times Roman",Font.BOLD,12));
 		f.add(tf);
 		g = new GridLayout(5,4,20,30);
 		p.setLayout(g);
